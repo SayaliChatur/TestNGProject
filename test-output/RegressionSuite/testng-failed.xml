@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.selenium.report.ListenerCode"/>
+    <listener class-name="com.selenium.report.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="3" name="TC 02 - calculator(failed)" verbose="4">
+    <classes>
+      <class name="com.selenium.keyworddriven.Calculator_Test">
+        <methods>
+          <include name="divOperation"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="mulOperation"/>
+        </methods>
+      </class> <!-- com.selenium.keyworddriven.Calculator_Test -->
+    </classes>
+  </test> <!-- TC 02 - calculator(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-20T11:44:07 IST" name="Default suite" finished-at="2021-11-20T11:45:09 IST" duration-ms="61698">
+    <groups>
+    </groups>
+    <test started-at="2021-11-20T11:44:07 IST" name="Default test" finished-at="2021-11-20T11:45:09 IST" duration-ms="61698">
+      <class name="com.selenium.datadriven.FD_cal">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.selenium.datadriven.FD_cal@10feca44]" started-at="2021-11-20T11:44:07 IST" name="beforeTest" finished-at="2021-11-20T11:44:20 IST" duration-ms="12831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="FixedDeposit_DataDriven()[pri:0, instance:com.selenium.datadriven.FD_cal@10feca44]" started-at="2021-11-20T11:44:20 IST" name="FixedDeposit_DataDriven" description="Validate Fixed depost functionality" finished-at="2021-11-20T11:45:03 IST" duration-ms="42540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FixedDeposit_DataDriven -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.selenium.datadriven.FD_cal@10feca44]" started-at="2021-11-20T11:45:03 IST" name="afterTest" finished-at="2021-11-20T11:45:09 IST" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.datadriven.FD_cal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
